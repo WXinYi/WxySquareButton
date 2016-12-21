@@ -27,16 +27,20 @@
         [button setTitle:titles[i] forState:UIControlStateNormal];
         
         switch (i) {
-            case 0: // image在上，title在下
+            case 0:
+                // image在上，title在下
                 [button layoutButtonWithEdgInsetsStyle:WxyButtonEdgeInsetsStyleImageTop imageTitleSpacing:10];
                 break;
-            case 1: // image在左，title在右
+            case 1:
+                // image在左，title在右
                 [button layoutButtonWithEdgInsetsStyle:WxyButtonEdgeInsetsStyleImageLeft imageTitleSpacing:5];
                 break;
-            case 2: // image在右，title在
+            case 2:
+                // image在右，title在
                 [button layoutButtonWithEdgInsetsStyle:WxyButtonEdgeInsetsStyleImageRight imageTitleSpacing:5];
                 break;
-            case 3: // image在下，title在上
+            case 3:
+                // image在下，title在上
                 [button layoutButtonWithEdgInsetsStyle:WxyButtonEdgeInsetsStyleImageBottom imageTitleSpacing:10];
                 break;
                 
